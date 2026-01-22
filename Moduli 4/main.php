@@ -1,56 +1,33 @@
 <?php
-// $hahaa = "hahaaaa";
 
-// switch($hahaa){
-//         case 'haha' :
-//         echo strlen($hahaa);
-//         break;
+// phpinfo ();
 
-//         case 'hahaa' :
-//         echo strlen($hahaa);
-//         break;
+// $x="hiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii";
+// $y=6.8;
+// $z=66;
+// print_r($x);
 
-//         case 'hahaaa' :
-//         echo strlen($hahaa);
-//         break;
+// echo gettype($x);
+// echo gettype($y);
+// echo gettype($z);
 
-//         case 'hahaaaa' :
-//         echo strlen($hahaa);
-//         break;
-
-//         case 'hahaaaaa' :
-//         echo strlen($hahaa);
-//         break;
-
-//         case 'hahaaaaaa' :
-//         echo strlen($hahaa);
-//         break;
-
-//         case 'hahaaaaaaa' :
-//         echo strlen($hahaa);
-//         break;
-
-//     default :
-//         echo  "Invalid Text";
-//         break;
+// function printha(){
+//     echo "literally nothing".phpversion();
 // }
 
-$numration = 0;
-while($numration <= 8){
-    echo "number is smaller than $numration <hr>";
-    $numration++;
-}
+// printha();
 
+function maximum($x, $y){
+    if($x>$y){
+        return $x;
+    }else{
+        return $y;
+    }
+    }
 
-$numration = 0;
-do{
-    echo "number is smaller than $numration <hr>";
-    $numration++;
-}while($numration <= 8);
+$test maximum(100, 100);
+echo $test;
 
-for($x=0; $x<=8; $x=++){
-    echo "number is smaller than $x <hr>";
-}
 
 ?>
 
