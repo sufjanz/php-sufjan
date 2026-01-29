@@ -9,10 +9,4 @@ function reverseTheString(){
 reverseTheString();
 
 
-
-
-
-
-
-
 ?>

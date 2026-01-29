@@ -7,6 +7,4 @@ if ($user_age >= 18){
     echo "You are not eligible to vote!". "<hr>";
 }
 
-
-
 ?>
