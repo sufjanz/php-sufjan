@@ -75,18 +75,19 @@ echo "</table>";
 
 <?php
 
-$arianita = {
+$arianita = [
     "math"=>"3",
     "art"=>"5",
     "histori"=>"4",
     "music"=>"2"
-};
+];
 
 
 echo "Math grade is ". $arianita['math'];
 
-
-
+foreach($arianita as $subject => $arianita){
+    echo "Subject: ". $arianita. " Grade: ". $subject. "<hr>";
+}
 
 
 ?>
