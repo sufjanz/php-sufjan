@@ -16,14 +16,13 @@ try{
 
     $sql =   "INSERT INTO user(usernames, password) VALUES ('$username', '$password')";
 
-    $conn->exec($sql);
+    $pdo->exec($sql);
 
-    echo "Connected";
+    echo "new record created successfully";
 
-}catch(Exeption $e){
-
-    echo "Not Connected";
-
+}catch(DOExeption $e){
+    echo $e->getMessage();
 }
+
 
 ?>
