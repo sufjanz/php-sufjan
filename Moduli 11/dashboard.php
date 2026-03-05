@@ -33,6 +33,17 @@ $user = $getUsers->fetchAll();
         th {
             background-color: green;
         }
+
+        form>input{
+            margin: 10px;
+            font-size: 20px;
+            padding: 5px;
+        }
+        button{
+            border: 1px solid black;
+            padding: 10px 30px;
+            font-size: 20px;
+        }
     </style>
 
     <table>
@@ -54,5 +65,14 @@ $user = $getUsers->fetchAll();
         <?php }?>
         
     </table>
+
+
+    <form>
+        <input type="hidden" name="id" value="<?php echo user[$id] ?>"><br>
+        <input type="hidden" name="username" value="<?php echo user[$username] ?>"><br>
+        <input type="hidden" name="password" value="<?php echo user[$password] ?>"><br>
+
+        <button type="submit">Update</button>
+    </form>
 </body>
 </html>
